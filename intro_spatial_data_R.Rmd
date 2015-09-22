@@ -91,7 +91,7 @@ Using `readOGR` from the `rgdal` package, you can read in a shapefile.
 ```{r shapefile}
 # dsn is the path name & layer is the name of the file. NOTE: you do not need to add an extension to the layer name
 
-cc = readOGR(dsn='data',layer='ca_current')
+cc = readOGR(dsn='data',layer='ca_current') #this is a vector shapefile
 ```
 
 **(2) Plot a Shapefile**  
